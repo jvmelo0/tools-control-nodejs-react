@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-mysql-api",
+  "version": "1.0.0",
+  "description": "REST API NODEJS MYSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Joao Melo",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "fastest-validator": "^1.19.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.3",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.5"
+  }
+}
