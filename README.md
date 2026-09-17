@@ -3,7 +3,7 @@
 ## :pencil: Descrição / Description
 <p align="left">Aplicação de Controlo de Ferramentas (Almoxarifado) para realização de empréstimos e devolução de ferramentas</p>
 
-## Requisitos
+## :factory: Requisitos
 <p align="left">Git <br>
 Node.js (versão 18+) <br>
 MySQL <br><p>
@@ -53,7 +53,24 @@ $ npm install
 $ npm run dev
 ```
 
-## Endpoints
+## :door: Endpoints
+### Rotas Fronted
+http://localhost:5173/
+|Rota|Descrição|
+|---|---|
+|/login|Tela de Login|
+|/main|Menu Principal|
+|/usuarios/cadastrar|Cadastro de Usuários|
+|/usuarios/listar|Lista de Usuários|
+|/categorias/cadastrar|Cadastro de Categorias|
+|/categorias/listar|Lista de Categorias|
+|/categorias/editar/:id|Editar Categoria|
+|/ferramentas/cadastrar|Cadastro de Ferramentas|
+|/ferramentas/listar|Lista de Ferramentas|
+|/ferramentas/editar/:id|Editar Ferramenta|
+|/movimentos/emprestar|Emprestar Ferramenta|
+|/movimentos/devolver|Devolver Ferramenta|
+|/movimentos/listar|Lista de Movimentos|
 
 ## :computer: Tecnologia / Technology
 <img align="right" width="45" height="50" alt="C_Programming_Language svg" src="https://github.com/user-attachments/assets/28b26c7a-2244-4183-8980-62c0a1056eed" />
